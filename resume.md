@@ -11,7 +11,7 @@ Pursuing Computer Science Major in NUYAD
 
 `2022 - 2026`
 __NYU Abu Dhabi__
-B.Sc in Computer Science
+B.Sc in Computer Sciences
 
 `1995 - 1997`
 __University Name__
