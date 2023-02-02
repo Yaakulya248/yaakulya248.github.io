@@ -5,6 +5,8 @@ Here's the link for youtube.com [Youtube Link](https://www.youtube.com)
 ## Introduction (Testing done by Yaakulya)
 Hello everyone, this is Yaakulya. I'm a freshman at NYUAD 
 
+## Learning from stratch
+
 #### Why Should I Use This?
 This website will be ready soon
 
