@@ -5,13 +5,13 @@ menutitle: Resume
 ---
 ## Currently
 
-Current Position Description
+Pursuing Computer Science Major in NUYAD
 
 ## Education
 
-`1990 - 1994`
-__University Name__
-Degree Awarded
+`2022 - 2026`
+__NYU Abu Dhabi__
+B.Sc in Computer Science
 
 `1995 - 1997`
 __University Name__
