@@ -9,10 +9,10 @@ Hi, this is Yaakulya. I'm a student at NYU Abu Dhabi majoring in Computer Scienc
 
 Fun fact: I love Marvel, and I believe Tony Stark will return from an alternate universe. 
 
-## Current Interests and Projects:
+## Current classes in this semester.  (Interests and Projects)
 
-- Lorem ipsum dolor sit amet
-- Lorem ipsum dolor sit amet
-- DLorem ipsum dolor sit amet
-- Lorem ipsum dolor sit amet
-- Lorem ipsum dolor sit amet
+- Discrete Math
+- Intro to Digital Humanities
+- Calculus with Application to Science and Eng. 
+- FYWS : Elsewhere 
+
