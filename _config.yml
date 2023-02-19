@@ -9,11 +9,11 @@ owner:
   name: Yaakulya Sabbani
   avatar: biopic.jpg
   bio: "- CS Student. Believes in Aliens"
-  email: Yaakulya@sabbani.com
+  email: ys5298@nyu.edu
   # Do not include the @ symbol in your Twitter username
   twitter: #username
-  linkedin: #username
-  github: #username
+  linkedin: yaakulya-sabbani
+  github: Yaakulya248
   orcid: # ID Number (ex. 0000-0000-0000-0000)
   researchgate: #username
   mendeley: #username
@@ -23,7 +23,7 @@ owner:
     verify:
     scholar: #id
   facebook: #username
-  instagram: #username
+  instagram: yaakulya_me
   bing-verify:
   stackoverflow: #123456/username from a "https://stackoverflow.com/users/123456/username" link
   xing: #username
