@@ -26,8 +26,7 @@ Before talking more about paiting, we need to discuss more about DLME.
 ## Brief about DLME Library: 
 DLME stands for "Digital Library of the Middle East." It is a collaborative project between various institutions and organizations, including the Council on Library and Information Resources (CLIR), the Antiquities Coalition, and several universities and libraries. The DLME is a digital library that aims to provide open access to cultural heritage materials from the Middle East and North Africa region, including manuscripts, maps, photographs, and other materials. The DLME also provides metadata and other information about the materials in the collection, as well as search and discovery tools to help users explore the materials. The DLME is designed to preserve and promote the cultural heritage of the region, while also making it accessible to researchers, scholars, and the general public. The advantages and disadvantages of this library are as follows: 
 
-**Advantages**
-1) Accessibility: The DLME provides easy access to a wealth of cultural heritage materials from the Middle East and North Africa region. This makes it easier for researchers and scholars to access primary sources and conduct research remotely, regardless of their physical location.
+**Advantages**:1) Accessibility: The DLME provides easy access to a wealth of cultural heritage materials from the Middle East and North Africa region. This makes it easier for researchers and scholars to access primary sources and conduct research remotely, regardless of their physical location.
 
 2) Preservation: The DLME is dedicated to preserving and digitizing rare and fragile materials, such as manuscripts, photographs, and maps. By creating digital copies of these materials, the DLME helps to protect them from deterioration and damage.
 
