@@ -21,7 +21,7 @@ So here I used Digital Library of the Middle East (DLME) to extract the metadata
 [Painting 1](https://dlmenetwork.org/library/catalog/harvard_scw-11166) - Link for Painting 1 
 [Painitng 2](https://dlmenetwork.org/library/catalog/harvard_scw-6446) - Link for Painiting 2 
 
-Before talking more about paiting, we need to discuss more DLME. 
+Before talking more about paiting, we need to discuss more about DLME. 
 
 ## Brief about DLME Library: 
 DLME stands for "Digital Library of the Middle East." It is a collaborative project between various institutions and organizations, including the Council on Library and Information Resources (CLIR), the Antiquities Coalition, and several universities and libraries. The DLME is a digital library that aims to provide open access to cultural heritage materials from the Middle East and North Africa region, including manuscripts, maps, photographs, and other materials. The DLME also provides metadata and other information about the materials in the collection, as well as search and discovery tools to help users explore the materials. The DLME is designed to preserve and promote the cultural heritage of the region, while also making it accessible to researchers, scholars, and the general public. The advantages and disadvantages of this library are as follows: 
