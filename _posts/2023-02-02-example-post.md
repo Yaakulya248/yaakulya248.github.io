@@ -27,7 +27,10 @@ Findings: If we closely peek into both the painting we can clearly understand th
 For instance, painting 1 has (Private) - Image Title: 24469516 and painting 2 has (MET, 13.228.53), Image Title: Detail 17198905 which clearly represented that both the paintings are from the same source which is Harvard University Library, specifically at Fine Arts Library, Harvard University. 
 
 Although the paintings are similar, the parameters used in the subject of both the paintings are different, Painting 1 have [miniatures (paintings), portraits, thrones
-borders (ornamental areas), illuminations, kings and rulers, haloes, flowers, iris (plant), poppies, birds] and the Painting 2 have [Islamic art, portraits, miniatures (paintings), rulers, thrones, baldachins (canopies), borders, calligraphy, floral motif, cushions and flowers.] Apart from "flowers" they both have very diversified paramenters in the subject. 
+borders (ornamental areas), illuminations, kings and rulers, haloes, flowers, iris (plant), poppies, birds] and the Painting 2 have [Islamic art, portraits, miniatures (paintings), rulers, thrones, baldachins (canopies), borders, calligraphy, floral motif, cushions and flowers.] Apart from "flowers" they both have very diversified paramenters in the subject. In addition to this, I argue that Painitng 1 has more details when compared to painting 2 - if we look in the descriptions and creators sections painting 1 describes that it's been attributed to Govardhan, 17th c., Indian (Artist) and materials used are gold on paper, ink, opaque watercolor, paper, color. 
+
+Painting 2 doesn't have any creator source but the materials mentioned are same as in painting 1. Our next findings brings to Extent, the sizes of both the paintings. 
+
 
 
 
