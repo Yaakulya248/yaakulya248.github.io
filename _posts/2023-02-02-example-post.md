@@ -68,6 +68,13 @@ Painting 2 doesn't have any creator source but the materials mentioned are same 
 ![MirrorDoor Side comparision](Md.png)
 
 
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+
+
 
 
 Filters used for the paintings in searchbar: Drawings, Other Images, Peackok Panintings 
