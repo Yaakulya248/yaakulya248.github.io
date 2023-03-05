@@ -81,7 +81,7 @@ Filters used for the paintings in searchbar: Drawings, Other Images, Peackok Pan
 
 ## Conclusion 
 
-Based on the available information, it appears that the Digital Library of the Middle East (DLME) does not currently have metadata specifically for the Shah Jahan on the Peacock Throne painting. However, the DLME is a comprehensive digital library of cultural heritage materials from the Middle East and North Africa region, and it is possible that related materials, such as manuscripts, photographs, or other artworks, may be available in the collection.
+Based on the available metadata information, it appears that the Digital Library of the Middle East (DLME) does not currently have much items to discover for the Shah Jahan on the Peacock Throne painting because of multiple duplicates. However, the DLME is a comprehensive digital library of cultural heritage materials from the Middle East and North Africa region, and it is possible that related materials, such as manuscripts, photographs, or other artworks, may be available in the collection.
 
 Metadata is a key component of digital libraries, as it helps users to search, discover, and access materials within the collection. The DLME's metadata is designed to provide detailed information about the materials in the collection, including their provenance, content, and context.
 
