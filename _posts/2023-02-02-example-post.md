@@ -63,6 +63,8 @@ borders (ornamental areas), illuminations, kings and rulers, haloes, flowers, ir
 
 Painting 2 doesn't have any creator source but the materials mentioned are same as in painting 1. Our next findings brings to Extent, the sizes of both the paintings. This is an intresting area, as we know the paitnings aren't same but the sizes are, so the precise size is 37.2 x 25.4 cm. and 16.5 x 13.9 cm without borders. Hence with all the evidences and findings we can conclude that original one is the paining 1 done in 16th centuary and the painting 2 in the 18th century is one regenrated with more vibrant colours of Shah Jahan Peacock's Throne. 
 
+Filters used for the paintings in searchbar: Drawings, Other Images, Peackok Panintings 
+
 ## Conclusion 
 
 Based on the available information, it appears that the Digital Library of the Middle East (DLME) does not currently have metadata specifically for the Shah Jahan on the Peacock Throne painting. However, the DLME is a comprehensive digital library of cultural heritage materials from the Middle East and North Africa region, and it is possible that related materials, such as manuscripts, photographs, or other artworks, may be available in the collection.
