@@ -68,10 +68,10 @@ Painting 2 doesn't have any creator source but the materials mentioned are same 
 ![MirrorDoor Side comparision](Md.png)
 
 
-| Syntax | Description |
+| Creator | Date | Measurements | Materials/Techniques
 | ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
+| Govardhan, 17th c., Indian (Artist)| 1634-1635 | 37.3 x 25.2 cm (with borders); 16.5 x 13.9 cm (painting) | gold on paper, ink, opaque watercolor, paper, color
+| - | 1800 - 1899 | 37.2 x 25.4 cm |  opaque watercolor, gold, ink, paper
 
 
 
