@@ -27,11 +27,11 @@ Before talking more about paiting, we need to discuss more DLME.
 
 The main advantages of the DLME are, as follows:
 
-Accessibility: The DLME provides easy access to a wealth of cultural heritage materials from the Middle East and North Africa region. This makes it easier for researchers and scholars to access primary sources and conduct research remotely, regardless of their physical location.
+1) Accessibility: The DLME provides easy access to a wealth of cultural heritage materials from the Middle East and North Africa region. This makes it easier for researchers and scholars to access primary sources and conduct research remotely, regardless of their physical location.
 
-Preservation: The DLME is dedicated to preserving and digitizing rare and fragile materials, such as manuscripts, photographs, and maps. By creating digital copies of these materials, the DLME helps to protect them from deterioration and damage.
+2) Preservation: The DLME is dedicated to preserving and digitizing rare and fragile materials, such as manuscripts, photographs, and maps. By creating digital copies of these materials, the DLME helps to protect them from deterioration and damage.
 
-Collaboration: The DLME is a collaborative effort between various institutions and organizations, including museums, libraries, and archives. This collaborative approach allows for a wider range of materials to be included in the digital library, and it also helps to promote cross-institutional research and collaboration.
+3) Collaboration: The DLME is a collaborative effort between various institutions and organizations, including museums, libraries, and archives. This collaborative approach allows for a wider range of materials to be included in the digital library, and it also helps to promote cross-institutional research and collaboration.
 
 Education: The DLME provides educational resources and tools to help students and educators learn about the cultural heritage of the Middle East and North Africa. These resources can be used to supplement classroom learning and provide students with access to primary sources and historical materials.
 
