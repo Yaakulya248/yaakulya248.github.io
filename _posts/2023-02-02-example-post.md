@@ -30,8 +30,5 @@ Painting 2 doesn't have any creator source but the materials mentioned are same 
 
 
 
-[Flower of Sakkara Oil Pure Egyptian Flower of Sakkara Oil, Clearing, Protection, Chakra Balancing from the Pyramid Texts of Saqqara Giza Egypt](https://www.etsy.com/dk-en/listing/901044495/flower-of-sakkara-oil-pure-egyptian).
-
-
 
 original one is the paining 1 which in drawn in 16th centuary and then this image is regenrated with more vibrant colours Shah Jahan
