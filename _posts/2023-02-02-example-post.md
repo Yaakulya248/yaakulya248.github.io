@@ -56,6 +56,9 @@ The Peacock Throne was commissioned by Shah Jahan, who ruled the Mughal Empire f
 
 The Peacock Throne itself was lost in history and is no longer in existence, but its legacy lives on through the many works of art and literature that have been created about it over the centuries. The Peacock Throne was a symbol of the wealth and power of the Mughal Empire, and it remains a fascinating and intriguing object to this day.
 
+
+*Link for the accesing the paintings (link)[https://drive.google.com/file/d/1ePmI3559Ni94gWvXLyGQxoZ24iZorrKp/view?usp=sharing]*
+
 **Findings:** If we closely peek into both the painting we can clearly understand that both the painting looks similar, but not the same! For eg, look at the cusion color and the turban shades of Shah Jahan. The fasinating point is they both were punblished under the same title: Shah Jahan on the Peacock Throne. But both the painting have seperate sub parameters followed by the main title. For instance, painting 1 has (Private) - Image Title: 24469516 and painting 2 has (MET, 13.228.53), Image Title: Detail 17198905 which clearly represented that both the paintings are from the same source which is Harvard University Library, specifically at Fine Arts Library, Harvard University. 
 
 ![MirrorDoor Side comparision](Md.png)
