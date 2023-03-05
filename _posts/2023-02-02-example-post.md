@@ -23,9 +23,10 @@ So here I used Digital Library of the Middle East (DLME) to extract the metadata
 
 Before talking more about paiting, we need to discuss more DLME. 
 
-## Advantages and Disadvantages of DLME
+## Brief about DLME Library: 
+DLME stands for "Digital Library of the Middle East." It is a collaborative project between various institutions and organizations, including the Council on Library and Information Resources (CLIR), the Antiquities Coalition, and several universities and libraries. The DLME is a digital library that aims to provide open access to cultural heritage materials from the Middle East and North Africa region, including manuscripts, maps, photographs, and other materials. The DLME also provides metadata and other information about the materials in the collection, as well as search and discovery tools to help users explore the materials. The DLME is designed to preserve and promote the cultural heritage of the region, while also making it accessible to researchers, scholars, and the general public. The advantages and disadvantages of this library are as follows: 
 
-The main advantages of the DLME are, as follows:
+**Advabtages**
 
 1) Accessibility: The DLME provides easy access to a wealth of cultural heritage materials from the Middle East and North Africa region. This makes it easier for researchers and scholars to access primary sources and conduct research remotely, regardless of their physical location.
 
@@ -37,7 +38,7 @@ The main advantages of the DLME are, as follows:
 
 5) Research: The DLME provides a valuable resource for researchers and scholars interested in the history, culture, and languages of the Middle East and North Africa. The digital library includes a wide range of materials, including manuscripts, photographs, maps, and audiovisual materials, which can be used to conduct research in a variety of fields.
 
-Disadvantages of DLME : 
+**Disadvantages:**
 1) Limited scope: The DLME currently focuses on materials from the Middle East and North Africa region, which may limit its relevance and usefulness to researchers and scholars in other parts of the world.
 
 2) Language barriers: Many of the materials in the DLME are in non-English languages, such as Arabic, Persian, and Turkish. This may make it difficult for researchers and scholars who do not have proficiency in these languages to access and use the materials effectively.
@@ -64,7 +65,10 @@ borders (ornamental areas), illuminations, kings and rulers, haloes, flowers, ir
 Painting 2 doesn't have any creator source but the materials mentioned are same as in painting 1. Our next findings brings to Extent, the sizes of both the paintings. This is an intresting area, as we know the paitnings aren't same but the sizes are, so the precise size is 37.2 x 25.4 cm. and 16.5 x 13.9 cm without borders. Hence with all the evidences and findings we can conclude that original one is the paining 1 done in 16th centuary and the painting 2 in the 18th century is one regenrated with more vibrant colours of Shah Jahan Peacock's Throne. 
 
 
-![alt text](Md.png)
+![MirrorDoor Side comparision](Md.png)
+
+
+
 
 Filters used for the paintings in searchbar: Drawings, Other Images, Peackok Panintings 
 
