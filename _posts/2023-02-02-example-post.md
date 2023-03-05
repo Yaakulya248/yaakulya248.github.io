@@ -26,9 +26,4 @@ Findings: If we closely peek into both the painting we can clearly understand th
 Although the paintings are similar, the parameters used in the subject of both the paintings are different, Painting 1 have [miniatures (paintings), portraits, thrones
 borders (ornamental areas), illuminations, kings and rulers, haloes, flowers, iris (plant), poppies, birds] and the Painting 2 have [Islamic art, portraits, miniatures (paintings), rulers, thrones, baldachins (canopies), borders, calligraphy, floral motif, cushions and flowers.] Apart from "flowers" they both have very diversified paramenters in the subject. In addition to this, I argue that Painitng 1 has more details when compared to painting 2 - if we look in the descriptions and creators sections painting 1 describes that it's been attributed to Govardhan, 17th c., Indian (Artist) and materials used are gold on paper, ink, opaque watercolor, paper, color. 
 
-Painting 2 doesn't have any creator source but the materials mentioned are same as in painting 1. Our next findings brings to Extent, the sizes of both the paintings. 
-
-
-
-
-original one is the paining 1 which in drawn in 16th centuary and then this image is regenrated with more vibrant colours Shah Jahan
+Painting 2 doesn't have any creator source but the materials mentioned are same as in painting 1. Our next findings brings to Extent, the sizes of both the paintings. This is an intresting area, as we know the paitnings aren't same but the sizes are, so the precise size is 37.2 x 25.4 cm. and 16.5 x 13.9 cm without borders. Hence with all the evidences and findings we can conclude that original one is the paining 1 done in 16th centuary and the painting 2 in the 18th century is one regenrated with more vibrant colours of Shah Jahan Peacock's Throne. 
