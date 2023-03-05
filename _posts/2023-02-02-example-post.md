@@ -14,3 +14,24 @@ category: blog
 Metadata refers to the information that describes other data. It is essentially data about data, and it can provide valuable insights into the content, context, and structure of information. Metadata is important because it helps to organize, manage, and preserve information. It makes it easier to search for and retrieve information, and it can also provide valuable insights into patterns and relationships within data. For example, metadata can be used to track the usage of digital resources, such as website traffic or downloads of digital files. It can also be used to ensure that information is properly preserved and archived over time, by documenting its history and provenance.
 
 Metadata plays a critical role in many different fields, including information science, library science, and digital humanities. It is especially important in the era of big data, where massive amounts of information are generated and stored every day. Without metadata, it would be nearly impossible to organize and make sense of all this information. Overall, metadata is a crucial component of information management and organization. By providing valuable insights into the content, context, and structure of data, metadata helps to make information more accessible, useful, and meaningful.
+
+## Painings and Metadata 
+
+So here I used Digital Library of the Middle East (DLME) to extract the metadata of two similar images of Shah Jahan sitting on a Throne. 
+
+[Painting 1](https://dlmenetwork.org/library/catalog/harvard_scw-11166) - Link for Painting 1 
+[Painitng 2](https://dlmenetwork.org/library/catalog/harvard_scw-6446) - Link for Painiting 2 
+
+Findings: If we closely peek into both the painting we can clearly understand that both the painting looks similar, but not the same! For eg, look at the cusion color and the turban shades of Shah Jahan. The fasinating point is they both were punblished under the same title: Shah Jahan on the Peacock Throne. But both the painting have seperate sub parameters followed by the main title. 
+
+For instance, painting 1 has (Private) - Image Title: 24469516 and painting 2 has (MET, 13.228.53), Image Title: Detail 17198905 which clearly represented that both the paintings are from the same source which is Harvard University Library, specifically at Fine Arts Library, Harvard University. 
+
+Although the paintings are similar, the parameters used in the subject of both the paintings are different, Painting 1 have [miniatures (paintings), portraits, thrones
+borders (ornamental areas), illuminations, kings and rulers, haloes, flowers, iris (plant), poppies, birds] and the Painting 2 have [Islamic art, portraits, miniatures (paintings), rulers, thrones, baldachins (canopies), borders, calligraphy, floral motif, cushions and flowers.] Apart from "flowers" they both have very diversified paramenters in the subject. 
+
+
+
+
+
+
+original one is the paining 1 which in drawn in 16th centuary and then this image is regenrated with more vibrant colours Shah Jahan
