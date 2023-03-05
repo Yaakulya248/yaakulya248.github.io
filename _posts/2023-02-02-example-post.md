@@ -72,3 +72,9 @@ Based on the available information, it appears that the Digital Library of the M
 Metadata is a key component of digital libraries, as it helps users to search, discover, and access materials within the collection. The DLME's metadata is designed to provide detailed information about the materials in the collection, including their provenance, content, and context.
 
 Overall, the DLME is an important resource for preserving and promoting the cultural heritage of the Middle East and North Africa region. While it may not currently have metadata specifically for the Shah Jahan on the Peacock Throne painting, it is a valuable resource for researchers and scholars interested in the history, culture, and languages of the region. The DLME's metadata and search capabilities can help users to explore related materials and conduct research in a variety of fields.
+
+References
+
+“DLME” Wikipedia, Wikimedia Foundation, 17 Feb. 2023, https://en.wikipedia.org/wiki/Metadata. 
+
+“Paintings and their Metadata's" Wikipedia, Wikimedia Foundation, 23 Feb. 2023, https://en.wikipedia.org/wiki/Metadata. 
