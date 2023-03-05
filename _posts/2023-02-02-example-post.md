@@ -21,6 +21,35 @@ So here I used Digital Library of the Middle East (DLME) to extract the metadata
 [Painting 1](https://dlmenetwork.org/library/catalog/harvard_scw-11166) - Link for Painting 1 
 [Painitng 2](https://dlmenetwork.org/library/catalog/harvard_scw-6446) - Link for Painiting 2 
 
+Before talking more about paiting, we need to discuss more DLME. 
+
+## Advantages and Disadvantages of DLME
+
+The main advantages of the DLME are, as follows:
+
+Accessibility: The DLME provides easy access to a wealth of cultural heritage materials from the Middle East and North Africa region. This makes it easier for researchers and scholars to access primary sources and conduct research remotely, regardless of their physical location.
+
+Preservation: The DLME is dedicated to preserving and digitizing rare and fragile materials, such as manuscripts, photographs, and maps. By creating digital copies of these materials, the DLME helps to protect them from deterioration and damage.
+
+Collaboration: The DLME is a collaborative effort between various institutions and organizations, including museums, libraries, and archives. This collaborative approach allows for a wider range of materials to be included in the digital library, and it also helps to promote cross-institutional research and collaboration.
+
+Education: The DLME provides educational resources and tools to help students and educators learn about the cultural heritage of the Middle East and North Africa. These resources can be used to supplement classroom learning and provide students with access to primary sources and historical materials.
+
+Research: The DLME provides a valuable resource for researchers and scholars interested in the history, culture, and languages of the Middle East and North Africa. The digital library includes a wide range of materials, including manuscripts, photographs, maps, and audiovisual materials, which can be used to conduct research in a variety of fields.
+
+Disadvantages of DLME : 
+Limited scope: The DLME currently focuses on materials from the Middle East and North Africa region, which may limit its relevance and usefulness to researchers and scholars in other parts of the world.
+
+Language barriers: Many of the materials in the DLME are in non-English languages, such as Arabic, Persian, and Turkish. This may make it difficult for researchers and scholars who do not have proficiency in these languages to access and use the materials effectively.
+
+Digitization challenges: Digitizing rare and fragile materials, such as manuscripts and photographs, can be a challenging and time-consuming process. There is also a risk of damage or loss during the digitization process, which could result in the loss of valuable cultural heritage materials.
+
+Funding and sustainability: The DLME is a collaborative effort between various institutions and organizations, and its long-term sustainability may be affected by changes in funding or institutional priorities. This could result in the discontinuation of the project or a reduction in the scope and quality of its materials.
+
+Copyright and ownership issues: Many of the materials in the DLME are subject to copyright and ownership restrictions, which may limit their use and dissemination. Researchers and scholars may need to obtain permissions and licenses to use the materials, which could be a barrier to access and use.
+
+## The Painting: 
+
 About this painting: The Peacock Throne was a magnificent throne made for the Mughal emperor Shah Jahan in the 17th century. The throne was adorned with precious gems and covered in gold, and it was said to be one of the most opulent objects ever created.
 
 The Peacock Throne was commissioned by Shah Jahan, who ruled the Mughal Empire from 1628 to 1658. Shah Jahan was a patron of the arts and architecture, and he is best known for commissioning the construction of the Taj Mahal in memory of his beloved wife Mumtaz Mahal. He was also a great patron of the decorative arts, and he commissioned many works of art, including the Peacock Throne. The painting depicting Shah Jahan on the Peacock Throne is a 19th-century work of art. It shows the emperor sitting on the throne, which is covered in gold and precious stones. The back of the throne is decorated with peacock feathers, hence the name "Peacock Throne." In the painting, Shah Jahan is depicted wearing richly embroidered clothing and jewels, with a halo around his head to symbolize his divine status.
@@ -34,7 +63,3 @@ borders (ornamental areas), illuminations, kings and rulers, haloes, flowers, ir
 
 Painting 2 doesn't have any creator source but the materials mentioned are same as in painting 1. Our next findings brings to Extent, the sizes of both the paintings. This is an intresting area, as we know the paitnings aren't same but the sizes are, so the precise size is 37.2 x 25.4 cm. and 16.5 x 13.9 cm without borders. Hence with all the evidences and findings we can conclude that original one is the paining 1 done in 16th centuary and the painting 2 in the 18th century is one regenrated with more vibrant colours of Shah Jahan Peacock's Throne. 
 
-Date	         Materials/Techniques	        Measurements
-1634-1635      gold on paper, ink, opaque    37.2 x 25.4 cm  
-
-o38924y98
