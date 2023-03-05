@@ -37,6 +37,4 @@ Painting 2 doesn't have any creator source but the materials mentioned are same 
 Date	         Materials/Techniques	        Measurements
 1634-1635      gold on paper, ink, opaque    37.2 x 25.4 cm  
 
-
-
-llhhklh
+o38924y98
