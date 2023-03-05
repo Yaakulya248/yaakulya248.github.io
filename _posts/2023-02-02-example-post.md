@@ -66,6 +66,7 @@ Painting 2 doesn't have any creator source but the materials mentioned are same 
 
 
 ![MirrorDoor Side comparision](Md.png)
+There might be some issues while loading the image so try this [link](https://drive.google.com/file/d/1Z10bQu-grM30E2G2zfmuyww3MPaUrCpx/view?usp=sharing)
 
 
 | Creator | Date | Measurements | Materials/Techniques
