@@ -7,7 +7,6 @@ tags: [intro, beginner, jekyll, tutorial]
 comments: true
 category: blog
 ---
-#Assignment 2 Title
 
 ## Brief Intro about Metadata. 
 
