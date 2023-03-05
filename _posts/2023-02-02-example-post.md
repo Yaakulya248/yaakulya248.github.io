@@ -61,7 +61,8 @@ The Peacock Throne itself was lost in history and is no longer in existence, but
 **Findings:** If we closely peek into both the painting we can clearly understand that both the painting looks similar, but not the same! For eg, look at the cusion color and the turban shades of Shah Jahan. The fasinating point is they both were punblished under the same title: Shah Jahan on the Peacock Throne. But both the painting have seperate sub parameters followed by the main title. For instance, painting 1 has (Private) - Image Title: 24469516 and painting 2 has (MET, 13.228.53), Image Title: Detail 17198905 which clearly represented that both the paintings are from the same source which is Harvard University Library, specifically at Fine Arts Library, Harvard University. 
 
 ![MirrorDoor Side comparision](Md.png)
-There might be some issues while loading the image so try this [link](https://drive.google.com/file/d/1Z10bQu-grM30E2G2zfmuyww3MPaUrCpx/view?usp=sharing)
+
+*There might be some issues while loading the image so try this [link](https://drive.google.com/file/d/1Z10bQu-grM30E2G2zfmuyww3MPaUrCpx/view?usp=sharing)*
 
 
 Although the paintings are similar, the parameters used in the subject of both the paintings are different, Painting 1 have [miniatures (paintings), portraits, thrones
