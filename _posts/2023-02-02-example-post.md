@@ -70,7 +70,7 @@ Painting 2 doesn't have any creator source but the materials mentioned are same 
 
 | Creator | Date | Measurements | Materials/Techniques
 | ----------- | ----------- |
-| Govardhan, 17th c., Indian (Artist)| 1634-1635 | 37.3 x 25.2 cm (with borders); 16.5 x 13.9 cm (painting) | gold on paper, ink, opaque watercolor, paper, color
+| Govardhan,Indian (Artist)| 1634-1635 | 37.3 x 25.2 cm (with borders); 16.5 x 13.9 cm (painting) | gold on paper, ink, opaque watercolor, paper, color
 | - | 1800 - 1899 | 37.2 x 25.4 cm |  opaque watercolor, gold, ink, paper
 
 
