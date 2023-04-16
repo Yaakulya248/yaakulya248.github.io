@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Assignment-2: Corpus
+title: Assignment- 2 :Corpus
 excerpt: "Working with Corpus!"
 modified: 1/31/2023, 9:00:24
 tags: [intro, beginner, jekyll, tutorial]
