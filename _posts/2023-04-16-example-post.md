@@ -9,6 +9,7 @@ category: blog
 ---
 
 ## What is Corpus? 
+
 A corpus is a large and structured collection of written or spoken texts that are used for linguistic analysis and research. The texts in a corpus can come from a variety of sources, such as books, newspapers, magazines, speeches, conversations, or any other form of written or spoken communication.
 Corpora are used for a variety of purposes in linguistics and natural language processing, such as developing language models, studying language variation and change, identifying patterns in language use, and evaluating the performance of language technologies.
 For example, the British National Corpus (BNC) is a corpus of modern British English that contains over 100 million words from a variety of sources, including newspapers, magazines, academic journals, and spoken conversations. Linguists and natural language processing researchers can use the BNC to study various aspects of the English language, such as vocabulary, grammar, syntax, and discourse. Another example is the Corpus of Contemporary American English (COCA), which is a corpus of American English that contains over 560 million words from various sources, such as fiction, newspapers, academic texts, and spoken conversations.
