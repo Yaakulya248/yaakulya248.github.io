@@ -60,7 +60,9 @@ The Voyant tool provided us with a dynamic platform for exploring the novels' va
 
 
 Given Scale: 135 
+
 Highest repeated word : ***said***(830), #1: 207 counts, #2: 443 counts, #3: 108 counts 
+
 Smallest repeated word : ***there’s*** (64), #1: 13 counts, #2: 52 counts, #3: 0 Counts
 
 
@@ -147,9 +149,11 @@ Despite this limitation, we found that the Voyant tool was highly effective in a
 
 
 1) What did you know about the subject before you began your analysis?
+
 Before beginning our analysis, we have had some general knowledge about the subject. We knew that detective novels were a popular genre of fiction, especially during the nineteenth century. We had also heard of some well-known detective writers such as Arthur Conan Doyle and Agatha Christie, who are considered to be masters of the genre. Additionally, we had a basic understanding that detective novels often involve a crime or mystery that needs to be solved by a detective or amateur sleuth. However, we did not have an in-depth knowledge of the genre or any specific texts, and we were excited to dive deeper into the subject through our analysis.
 
 2) Were there any surprises in your exploration?
+
 There were some surprises during our exploration. One of the surprising findings was the high frequency of the word "Man" in all three novels we analyzed. It was the second most repeated word in the corpus. We speculated that this could be due to the mystery and detective fiction genre, where many unknown characters or suspects are often referred to as "Man" instead of their actual names. Additionally, it suggests that most of the characters in the novels were likely male, which aligns with the fact that there were not many female detectives in the 19th century when these novels were written.
 Another surprise was the prevalence of cultural, regional, and religious indicators in the texts. In particular, we noticed that certain words like "tae," "said," "time," and "man" appeared frequently in "The Mystery of Cloomber," hinting at the novel's Indian and military themes. These observations helped us to better understand the context of the texts and appreciate the nuances of the stories.
 Finally, we were surprised by some of the limitations of the Voyant tool we used for our analysis. For instance, the tool could not differentiate between the main text and the metadata included in the Project Gutenberg books we analyzed. As a result, the most frequent words in some cases were "Project" and "Gutenberg," which did not provide useful insights into the content of the novels.
