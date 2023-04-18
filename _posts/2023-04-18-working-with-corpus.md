@@ -36,8 +36,6 @@ Overall, corpus is a valuable resource for linguistics research, language learni
 
 # Metadata about the chosen Texts
 
-F#  Metadata about the chosen Texts
-
 For our upcoming assignment, my groupmate Yaakulya and I have selected three of Arthur Conan Doyle's gripping crime novels to delve into. These captivating works include *My Friend the Murderer*[^2], *A Study in Scarlet*[^3], and *The Mystery of Cloomber*[^4].
 
 **Arthur Conan Doyle**, a distinguished British writer and physician, made his mark on literature with his outstanding detective and crime novels. Along with practicing medicine, he was an accomplished writer of short stories. However, he skyrocketed to fame after creating one of the most beloved fictional characters of all time, the brilliant detective Sherlock Holmes.[^5]
@@ -84,8 +82,6 @@ Moreover, given that these novels are from the nineteenth century, when female d
 
 
 
-
-
 Aside from the specific words such as "man" and "said," we also found that the most common words in each of the texts were the names of the main characters, the locations where the events took place, and certain cultural, regional, or religious indicators that provide context to the story.
 For instance, in "The Mystery of Cloomber," words such as "Singh," "Buddhist," "corporal," and "general" suggest that this novel has some connection to India and military affairs. This gives us a sense of the cultural and historical background of the story and helps us to understand the context in which the events unfold.
 
@@ -100,7 +96,7 @@ By examining the most commonly used words in each of these novels, we can gain i
 *Graph of the most repeated term: said (830 iterations)* 
 
 
-# An in-depth Examination of Segments within the Corpus via Individualized Analysis
+## An in-depth Examination of Segments within the Corpus via Individualized Analysis
 
 ## Analytical data from the Book 1: My friend The Murderer
 
@@ -139,8 +135,6 @@ Additionally, the term "tae" was found to be used more frequently than "said," p
 
 The prevalence of "tae" in the dialogue-heavy sections further suggests that the characters in these segments were grappling with significant issues, adding to the depth and complexity of the story. This could indicate a shift in the narrative, moving towards more intense conflicts and character development, which is often a sign of a well-crafted and thought-provoking storyline. This analysis provides insight into the stylistic and narrative choices made by the author in the third book. It highlights the use of language and dialogue as powerful tools for engaging readers and creating a sense of immersion in the story.
 
-
-# Conclusion and Findings 
 # Conclusion and Findings 
 In order to explore the world of detective novels, we turned our attention towards the works of Arthur Conan Doyle. As a highly acclaimed writer in the genre, we were eager to delve into his body of work, with the expectation that we would be encountering contemporary prose. However, we soon discovered that many of the events in his novels took place in nineteenth century England, with a significant amount of vocabulary related to specific English locations and antiquated language that is no longer in common use.
 
