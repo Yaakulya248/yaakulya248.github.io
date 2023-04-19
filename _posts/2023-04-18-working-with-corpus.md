@@ -127,9 +127,9 @@ The fact that the term "Gutenberg" was only used in the metadata sections indica
 
 
 ## Statistics from Book 3: The mystery of Cloomber
-<img src="/assets/image8.png" style="width:80%; height:50%; margin-left:10%;" />
+<img src="/assets/image9.png" style="width:80%; height:50%; margin-left:10%;" />
 
-<img src="/assets/image8.png" style="width:80%; height:50%; margin-left:10%;" />
+<img src="/assets/image10.png" style="width:80%; height:50%; margin-left:10%;" />
 
 Upon conducting a thorough analysis of the corpus data, it became apparent that the third book exhibited a considerably higher vocabulary density in comparison to the preceding two books. This finding suggests that the author utilized a more diverse range of words and expressions in the third book, which could indicate a more sophisticated writing style or a greater emphasis on character development.
 
