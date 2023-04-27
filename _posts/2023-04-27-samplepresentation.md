@@ -1,7 +1,7 @@
 ---
 layout: slide
-title: Example Reveal.js Presentation Deck
-excerpt: A sample file showing the correct markup for creating a Reveal.js slide deck"
+title: First Presentation
+excerpt: This is a sample presentation
 # theme: moon
 transition: convex
 tags: [presentation]
