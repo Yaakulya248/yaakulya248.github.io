@@ -1,6 +1,6 @@
 ---
 layout: slide
-title: First Presentation
+title: The First Presentation
 excerpt: This is a sample presentation
 # theme: moon
 transition: convex
