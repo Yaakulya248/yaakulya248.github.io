@@ -2,7 +2,7 @@
 layout: slide
 title: The First Presentation
 excerpt: This is a sample presentation
-# theme: solarized
+# theme: blood
 transition: convex
 tags: [presentation]
 category: presentation
