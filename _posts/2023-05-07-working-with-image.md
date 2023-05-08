@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Assignment 2
+title: Assignment 3: Image Corpus
 excerpt: "Image Analysis Assignment"
 modified: 5/29/2023, 9:00:24
 tags: [intro, beginner, image, tutorial]
@@ -9,7 +9,7 @@ category: blog
 ---
 
 # **A comparative analysis and classification of randomly generated cluster of photos using 'Orange'**
-*Authors: Yaakulya Rabbani, Sami Areez*
+*Authors: Yaakulya Sabbani, Sami Areez*
 
 
 An assignment where we fidget around with image analysis using a data mining and processing software Orange with randomly sorted images from four distinct categories. 
