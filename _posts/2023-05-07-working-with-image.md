@@ -1,174 +1,336 @@
 ---
 layout: post
-title: Assignment-3 :Working with Image Corpus
-excerpt: "3nd Assignment"
-modified: 1/31/2023, 9:00:24
-tags: [intro, beginner, jekyll, tutorial]
+title: Assignment 2
+excerpt: "Image Analysis Assignment"
+modified: 5/29/2023, 9:00:24
+tags: [intro, beginner, image, tutorial]
 comments: true
 category: blog
 ---
 
-# Uncovering Insights from Corpus Data through Utilization of Accessible Analytical Tools
+# **A comparative analysis and classification of randomly generated cluster of photos using 'Orange'**
+*Authors: Yaakulya Rabbani, Sami Areez*
 
 
-## What is Corpus? 
+An assignment where we fidget around with image analysis using a data mining and processing software Orange with randomly sorted images from four distinct categories. 
 
-**Corpus**
-: A large and structured collection of written or spoken texts that are used for linguistic analysis and research.[^1] 
+This is a two part assignment. In the first part, we collect an assortment of randomly gathered pictures belonging to a specific niche/category (which we call as ‘image class’) and see how we can actually distinguish and sub-categorize those images using image embedding algorithms provided by Orange followed by neatly laying those sub-categories into hierarchical clusters.
 
-The texts in a corpus can come from a variety of sources, such as books, newspapers, magazines, speeches, conversations, or any other form of written or spoken communication.Corpora are used for a variety of purposes in linguistics and natural language processing, such as developing language models, studying language variation and change, identifying patterns in language use, and evaluating the performance of language technologies.
-For example, the British National Corpus (BNC) is a corpus of modern British English that contains over 100 million words from a variety of sources, including newspapers, magazines, academic journals, and spoken conversations. Linguists and natural language processing researchers can use the BNC to study various aspects of the English language, such as vocabulary, grammar, syntax, and discourse. Another example is the Corpus of Contemporary American English (COCA), which is a corpus of American English that contains over 560 million words from various sources, such as fiction, newspapers, academic texts, and spoken conversations.
+For the next part, we build upon the activities of the previous step and take it up a niche by incorporating similar banks of images but this time with an additional 3 different categories taking our number of image sources/classes into 4.
+We then replay the same simulation as last time, and subsequently test out the prediction mechanism of Orange done on the basis of analysis of several features/data points of each of the images of the respective collections we gave it.
 
-# Why is Corpus helpful? 
+All the individual sources along with the combined collection of the photos used in the experiments are indexed at the end of the page.
 
-Corpus is helpful because it is a large and organized collection of texts or spoken language that is used for linguistic analysis and research. Here are some reasons why corpus is useful:
+## - Project Outline:
 
-***Language analysis***: Corpus provides a wealth of linguistic data that can be used to study different aspects of language such as grammar, vocabulary, syntax, and discourse. Linguists can analyze the frequency, collocation, and distribution of words and phrases in different contexts, and identify patterns and trends in language usage.
+### About the images
 
-***Language learning***: Corpus can be used as a resource for language learners to improve their vocabulary, grammar, and writing skills. Learners can study authentic texts in context and learn how words and phrases are used in different situations.
+The images for this entire experiment were taken from sources like WikiArt and Akaash image libraries (the links to each individual library have been cited at the end). The images sourced for each distinct category were picked at random from the first couple of webpages of each site to eliminate any chance of biases that might hinder the validity of the experiment outcomes.
 
-***Machine learning***: Corpus is a valuable resource for developing natural language processing (NLP) algorithms and training machine learning models. By analyzing patterns in the language data, these algorithms can be used to automate tasks such as text classification, sentiment analysis, and machine translation.
 
-***Discourse analysis***: Corpus can be used to analyze different types of discourse such as academic texts, legal documents, and social media posts. By analyzing the language used in these contexts, researchers can gain insights into the social and cultural factors that influence language use.
+### Tools used
 
-Overall, corpus is a valuable resource for linguistics research, language learning, and machine learning applications. It provides a rich source of language data that can be analyzed and used to gain insights into the structure, usage, and meaning of language.
+Much like a corpus, analyzing an entire cluster of photos and segmenting them is something not possible by bare humane abilities. Orange aids that procedure by using image embedding and sorting algorithms accessed from its server remotely and analyzing over 2000 different data points(attributes) of each individual picture to put into contrast with the attributes to all the other photos. 
 
+:# Part 1: Hierarchical clustering using Dendrograms:
 
-# Metadata about the chosen Texts
 
-For our upcoming assignment, my groupmate Yaakulya and I have selected three of Arthur Conan Doyle's gripping crime novels to delve into. These captivating works include *My Friend the Murderer*[^2], *A Study in Scarlet*[^3], and *The Mystery of Cloomber*[^4].
+*Segment Outline:*
+ - Category: Romanesque Architecture
+ - Number of photos in the sample: 37
+ - The image collection used can be found here 
 
-**Arthur Conan Doyle**, a distinguished British writer and physician, made his mark on literature with his outstanding detective and crime novels. Along with practicing medicine, he was an accomplished writer of short stories. However, he skyrocketed to fame after creating one of the most beloved fictional characters of all time, the brilliant detective Sherlock Holmes.[^5]
-In our quest to analyze and explore these three intriguing novels, we examined the plot, character development, language usage, and thematic elements present in Conan Doyle's writing. These texts are sure to provide us with a riveting journey into the realm of crime and mystery, and we eagerly anticipate delving into the works of this iconic author.
 
-| Book    | Genre      |  Date         |  Notes        |
-| :---        |    :----:   |         :---: |          ---: |
-| My friend the murderer| Detective       | 1887         | Short stories|
-| A study of the scarlet     | Detective | 1887       | Sherlock Holmes series|
-| The Mystery of Cloomber      | Mystery| 1888          | Fictional novel|
+To start with, we first import our collection into the dataset and do a primary check for the metadata:
 
+<figure>
+<img src="/assets/orange/1.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
 
-# Tools Used: 
+First we choose the entire folder of our images and *import* the photos as such. We can then access the collection in the application itself using the image viewer. The primary metadata of the images can be found using the *Data Table*.
 
-To conduct a thorough analysis of these captivating crime novels, my groupmate Yaakulya and I turned to cutting-edge digital tools. Specifically, we utilized the ***Voyant tool*** to delve deeper into the intricate layers of Arthur Conan Doyle's writing.
 
-The Voyant tool provided us with a dynamic platform for exploring the novels' various elements, including word usage, frequency, and patterns. With this innovative software, we were able to identify key themes and motifs that permeated throughout the texts, gaining invaluable insights into Conan Doyle's writing style.
+The metadata we get: 
+<figure>
+<img src="/assets/orange/2.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
 
-<img src="/assets/wordcloud.png" style="width:80%; height:50%; margin-left:10%;" />
 
-*Word Cloud of all the three books combined.*
+We do get some ‘metadata’ but all we really get are the size dimensions and the names and origins files of the photos - something we can’t really use for anything at all.
 
 
-Given Scale: 135 
 
-Highest repeated word : ***said***(830), #1: 207 counts, #2: 443 counts, #3: 108 counts 
+*That’s where Image Embedding comes in*.
 
-Smallest repeated word : ***there’s*** (64), #1: 13 counts, #2: 52 counts, #3: 0 Counts
+<figure>
+<img src="/assets/orange/3.1.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
 
+After running our dataset through image embedding we get a plethora of very useful pieces of information (metadata) that we can use for our next step
 
 
-In our initial analysis, we examined all three novels concurrently using the powerful Voyant tool, which enabled us to identify general themes and trends within the texts. Our focus was on the top 135 words that appeared repeatedly across all three works, and one word stood out in particular: "said." This ubiquitous word was used a total of 830 times throughout the three novels, with "My Friend the Murderer," "A Study of the Scarlet," and "The Mystery of Cloomber" featuring it 207, 443, and 180 times, respectively.
+<figure>
+<img src="/assets/orange/3.2.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
 
-The prevalence of the word "said" may suggest that these crime novels are rich in dialogue, a common characteristic of the mystery and detective fiction genres. In such genres, dialogue is often used as a tool to reveal crucial information and advance the plot. 
+*The metadata we now get*:
+<figure>
+<img src="/assets/orange/4.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
 
-> As the novels are works of fiction, the author must naturally create a diverse range of characters and conversations for them, thus leading to the frequent repetition of the word "said" in order to establish who is speaking and move the dialogue forward.
 
-Another surprising word that emerged as one of the most frequently repeated in all three novels was "man," appearing a total of 509 times, making it the second most repeated word overall. One possible reason for this frequent use of the word "man" could be the genre of the books themselves. As works of mystery and detective fiction, the novels likely feature numerous unknown characters or suspects, and the word "man" may have been used as a generic term to refer to these individuals. This also suggests that the majority of the characters in these novels were likely male, as the word "man" is typically gendered.
-Moreover, given that these novels are from the nineteenth century, when female detectives were not yet common, the overuse of the word "man" is not surprising. The author's use of this term may reflect the prevailing attitudes and assumptions of the time, where men were viewed as the primary actors and decision-makers in society, and women were relegated to supporting roles. Overall, the word "man" serves as a powerful reminder of the historical context and social dynamics that shaped the writing of these renowned crime novels.
 
+We can use any of the several embedding algorithms provided in the system software that suits our specific needs/types of photos in context. What we get are over 2000 individual characteristics/data points which the system picks up, examines and analyses to categorize each of the photos into various clusters and sub-clusters.
 
-## Analytical Data of all the three books included.
 
 
-<img src="/assets/image1.png" style="width:80%; height:50%; margin-left:10%;" />
 
 
 
-Aside from the specific words such as "man" and "said," we also found that the most common words in each of the texts were the names of the main characters, the locations where the events took place, and certain cultural, regional, or religious indicators that provide context to the story.
-For instance, in "The Mystery of Cloomber," words such as "Singh," "Buddhist," "corporal," and "general" suggest that this novel has some connection to India and military affairs. This gives us a sense of the cultural and historical background of the story and helps us to understand the context in which the events unfold.
 
-By examining the most commonly used words in each of these novels, we can gain insight into the themes, settings, and characters that the author wanted to emphasize, and deepen our understanding of the rich and complex worlds that Arthur Conan Doyle created in his crime fiction.
 
-*The following pictures can be taken as evidence* 
+### Hierarchical Clustering: Dendrogram:
 
-<img src="/assets/image3.png" style="width:80%; height:50%; margin-left:10%;" />
 
-<img src="/assets/image4.png" style="width:80%; height:50%; margin-left:10%;" />
+<figure>
+<img src="/assets/orange/5.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
 
-*Graph of the most repeated term: said (830 iterations)* 
+This is the final product we get after our processing up until this point. Based on the characteristics of all the photos (2048 individual data points), we get a hierarchical structure called Dendrograms which sort of looks like the root network of a tree. The concept is pretty straightforward and visually intuitive as all it does is sort it into categories and subcategories based on all the characteristics that we previously derived and processed in our procedure.
 
 
-## An in-depth Examination of Segments within the Corpus via Individualized Analysis
+Let’s have a look at some excerpts from the graphs as examples to make sense of the entire thing:
 
-## Analytical data from the Book 1: My friend The Murderer
 
-<img src="/assets/image5.png" style="width:80%; height:50%; margin-left:10%;" />
 
-<img src="/assets/image6.png" style="width:80%; height:50%; margin-left:10%;" />
 
-Through a meticulous analysis of the corpus data, a noteworthy finding emerged in the form of the word "said" being frequently utilized in the middle sections of the book, more specifically in segments 4 through 6. This observation suggests that these particular portions were predominantly driven by dialogue, as opposed to descriptive prose. In other words, these segments were more focused on conversations between characters, resulting in a more dynamic and engaging reading experience.
 
-The significance of this finding lies in the fact that it sheds light on the structure of the book and how the author crafted different parts of the narrative. By utilizing the word "said" frequently in the middle segments, the author was able to create an immersive experience for the reader by placing them directly in the midst of character interactions. This technique allowed the author to convey the emotions and attitudes of each character in a more organic and natural way, making them seem more authentic and relatable.
 
-Furthermore, this analysis also suggests that other sections of the book were more descriptive and less dialogue-driven. This serves to create a sense of balance in the narrative, providing the reader with moments of introspection and reflection, while also allowing for moments of heightened tension and excitement in the dialogue-heavy segments. This discovery highlights the effectiveness of utilizing dialogue as a tool to engage readers and create a more immersive experience. It also emphasizes the importance of balancing dialogue and descriptive prose to create a well-rounded and captivating narrative.
 
+### Example 1: Front Facing right angle
 
-## Analytical data from the Book 2: A Study In Scarlet
+<figure>
+<img src="/assets/orange/6.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
 
-<img src="/assets/image7.png" style="width:80%; height:50%; margin-left:10%;" />
 
-<img src="/assets/image8.png" style="width:80%; height:50%; margin-left:10%;" />
+As we can see, the clustering in this example is visually on point. Both the pictures have a VERY strong similarity in terms of image structure and the size and shape of the subjects concerned. It is basically photos of ancient fort-like structures with a seemingly 90* bank towards the camera/viewpoint as the foreground and the blue sky as the background.
 
-Upon careful examination of this corpus data, it is evident that the term "Gutenberg" was solely employed in the first and last segments of the book. This finding suggests that the term was not utilized within the actual content of the book, despite being among the most frequently occurring words in the book's text format.
+All of the following examples also portray a randomly chosen pair of photos that have been clustered based on the amount of visual similarities and characteristics they possess. 
 
-This observation is particularly interesting because the book was obtained from Project Gutenberg, a digital library that provides access to free e-books. It is possible that the term "Gutenberg" was mentioned in the metadata section located at the beginning and the end of the book, which provides information about the book's author, publisher, and copyright status.
+### Example 2: Lush Greeneries
 
-The fact that the term "Gutenberg" was only used in the metadata sections indicates that the author did not directly reference the digital library or its mission within the narrative. However, the use of Project Gutenberg as a source for the text version of the book highlights the growing importance of digital libraries and the impact they have on literature and reading habits. This finding emphasizes the significance of paying attention to the context in which words are used in a text, as it can provide valuable insights into the author's intentions and the underlying themes of the book.
+<figure>
+<img src="/assets/orange/7.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
 
+Photos of remote forts and castles surrounded by a lush landscape of forests.
 
-## Statistics from Book 3: The mystery of Cloomber
-<img src="/assets/image9.png" style="width:80%; height:50%; margin-left:10%;" />
+### Example 3: Curved Entrances and Alleyways 
 
-<img src="/assets/image10.png" style="width:80%; height:50%; margin-left:10%;" />
+<figure>
+<img src="/assets/orange/8.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
 
-Upon conducting a thorough analysis of the corpus data, it became apparent that the third book exhibited a considerably higher vocabulary density in comparison to the preceding two books. This finding suggests that the author utilized a more diverse range of words and expressions in the third book, which could indicate a more sophisticated writing style or a greater emphasis on character development.
+An entire subcategory of photos that seem to share a common architectural philosophy in terms of interior designs. 
 
-Additionally, the term "tae" was found to be used more frequently than "said," particularly in segments 3 to 5 of the book. This observation implies that these segments were heavily dialogue-driven and likely featured more descriptive sentences, portraying characters engaged in intense conflicts and conversations. The concentration of "tae" in these parts highlights the author's skill in creating dialogue that is engaging and emotionally charged, providing the reader with a more immersive reading experience.
+Every single one of the architectures, being distinct and mighty beautiful in their own rights, seem to share a structural design incorporating curved ceilings and entrances and long alleyways. Also interesting to note that ALL of the photos are of famous churches & chapels scattered across Europe, which does help explain a lot.
 
-The prevalence of "tae" in the dialogue-heavy sections further suggests that the characters in these segments were grappling with significant issues, adding to the depth and complexity of the story. This could indicate a shift in the narrative, moving towards more intense conflicts and character development, which is often a sign of a well-crafted and thought-provoking storyline. This analysis provides insight into the stylistic and narrative choices made by the author in the third book. It highlights the use of language and dialogue as powerful tools for engaging readers and creating a sense of immersion in the story.
+### Example 4: Pillar Art
 
-# Conclusion and Findings 
-In order to explore the world of detective novels, we turned our attention towards the works of Arthur Conan Doyle. As a highly acclaimed writer in the genre, we were eager to delve into his body of work, with the expectation that we would be encountering contemporary prose. However, we soon discovered that many of the events in his novels took place in nineteenth century England, with a significant amount of vocabulary related to specific English locations and antiquated language that is no longer in common use.
 
-To aid in our analysis, we employed the Voyant tool, which helped us uncover these general observations with much greater efficiency than if we were to rely solely on linear reading. However, we did encounter one obstacle while working with the texts from Project Gutenberg, which was that the books contained metadata within their text format. This resulted in the most commonly used words being "Project" and "Gutenberg," which the Voyant tool was unable to exclude from its analysis. Unfortunately, we were unable to find a tool that would allow us to easily remove this extraneous text within the Voyant platform itself, and doing so manually would be impractical when working with large volumes of text.
+<figure>
+<img src="/assets/orange/9.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
 
-Despite this limitation, we found that the Voyant tool was highly effective in analyzing English language texts, and we believe that it would also prove useful for European languages and languages that share a similar alphabet. For instance, commonly used languages like Chinese and Spanish, which have a substantial digital database, should be compatible with this tool.
+Pillar art and carvings typically found in historical monuments and structures of Europe - a signature of medieval European architecture. And as expected the algorithm lists these together in the same branch of the dendrogram given their visual resemblance and congruent characteristics.
 
 
-## Guiding Questions: 
+- ## Final Product:
+*Image Grid after Image Embedding*
 
+<figure>
+<img src="/assets/orange/10.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
 
-1) What did you know about the subject before you began your analysis?
+Our final cluster incorporating all of the clustering that we did & discussed up until now, neatly summed up in a grid arranged on the basis of similarities across the dataset.
 
-Before beginning our analysis, we have had some general knowledge about the subject. We knew that detective novels were a popular genre of fiction, especially during the nineteenth century. We had also heard of some well-known detective writers such as Arthur Conan Doyle and Agatha Christie, who are considered to be masters of the genre. Additionally, we had a basic understanding that detective novels often involve a crime or mystery that needs to be solved by a detective or amateur sleuth. However, we did not have an in-depth knowledge of the genre or any specific texts, and we were excited to dive deeper into the subject through our analysis.
+### Workflow to get to this point:
 
-2) Were there any surprises in your exploration?
 
-There were some surprises during our exploration. One of the surprising findings was the high frequency of the word "Man" in all three novels we analyzed. It was the second most repeated word in the corpus. We speculated that this could be due to the mystery and detective fiction genre, where many unknown characters or suspects are often referred to as "Man" instead of their actual names. Additionally, it suggests that most of the characters in the novels were likely male, which aligns with the fact that there were not many female detectives in the 19th century when these novels were written.
-Another surprise was the prevalence of cultural, regional, and religious indicators in the texts. In particular, we noticed that certain words like "tae," "said," "time," and "man" appeared frequently in "The Mystery of Cloomber," hinting at the novel's Indian and military themes. These observations helped us to better understand the context of the texts and appreciate the nuances of the stories.
-Finally, we were surprised by some of the limitations of the Voyant tool we used for our analysis. For instance, the tool could not differentiate between the main text and the metadata included in the Project Gutenberg books we analyzed. As a result, the most frequent words in some cases were "Project" and "Gutenberg," which did not provide useful insights into the content of the novels.
+<figure>
+<img src="/assets/orange/11.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
 
-3) How well would this assignment work for a language other than English?
+### Course of Action:
 
-We believe that the assignment could work for languages other than English, but it would depend on the availability and quality of digital text resources for that language. The Voyant tool, which was used for this assignment, supports multiple languages, including French, German, Spanish, Chinese, and many others. However, the accuracy and usefulness of the tool's analysis would depend on the quality of the input text and the extent to which the tool can identify and interpret the language-specific features and nuances of that text. In addition, some languages may not have as much digital text available, which could limit the scope of the analysis. Overall, the assignment could be adapted to work with other languages, but it would require some additional research and adaptation to account for language-specific differences and constraints.
+1. Enter our entire set into the application using the ‘Import Images”
+2. After having a look at the photos themselves and their primary metadata (dates, dimensions), we pipe it into the ‘Image Embedding’ function using a suitable algorithm.
+3. After getting the attributes/image vectors to each of the 37 images of the set, we can analyze it view it
+4. Set up the Hierarchical Clustering using Dendrogram for our final output
+5. View the images as we did above.
 
-References:
 
-[^1]: Definition from Oxford Languages, google,Google
-[^2]:My Friend the Murderer, Project Gutenberg, https://www.gutenberg.org/ebooks/23059
-[^3]:A Study in Scarlet, Project Gutenberg, https://www.gutenberg.org/cache/epub/244/pg244.txt
-[^4]:The Mystery of Cloomber, Project Gutenberg, https://www.gutenberg.org/cache/epub/7964/pg7964.txt
-[^5]:Arthur Conan Doyle, Wikipedia, Wikipedia, https://en.wikipedia.org/wiki/Arthur_Conan_Doyle
 
 
+:# Part 2: Classification, Predictions, and Anomalies:
+
+*Working with 130+ images*
+
+
+Now, we can take our learnings from our previous experiment and take it one step further.
+We-
+1. Work with 4 different categories of images consisting of of total of over 130 images
+2. After repeating the same procedure as the previous part, we go ahead and set up a prediction model and see how the images fare in it.
+
+### Segment Outline:
+ - Names of Categories:
+ 1. Romanesque Architecture - 37
+ 2. A Gulf of Images (Architecture) - 37 
+ 3. Medieval Structures and Architectures (Negative: 17-19th Century) - 32 
+ 4. The Edge (Architecture) - 26
+
+ - Link to the photo collection: [Same as the previous](https://drive.google.com/drive/folders/1zCOBYnXtL3mBae2knFCVnmiOmGEUi8ay)
+
+**A snapshot of the entire collection of the photos used here:**
+
+<figure>
+<img src="/assets/orange/12.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
+     
+## - Image Embedding:
+
+We follow through the same course of actions that lead us to the table containing 2048 individual attributes/data points of all the images in our collection that we shall subsequently use for clustering and comparing.
+
+
+
+<figure>
+<img src="/assets/orange/13.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
+
+## Hierarchical Clustering: 
+
+### - Example 1:
+
+<figure>
+<img src="/assets/orange/14.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
+
+### - Example 2:
+ 
+<figure>
+<img src="/assets/orange/15.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
+
+This one in particular might be a bit off (as is the case for few values for any data analytics project) as the visual similarities or the congruent attributes of the images that made the system cluster them together might be immediately evident.
+
+That being said and done, now we move on to the next and final step of our project, that is creating a prediction model (based on previously generated image attributes) using **Confusion Matrix**. 
+
+After constructing the matrix, we can cross examine each of the samples itself and get an idea of the effectiveness of the model and the overall quality of our custom dataset itself.
+
+### Confusion Matrix: 
+
+ - Actual vs Predicted Values
+ - Shows the number of instance of each combination
+
+Confusion matrix is a pretty straightforward concept: a square matrix that is constructed with the actual results (classes of each image) on the horizontal axis and the predicted results - the class of the image as perceived by the algorithm on the basis of its characteristics - on the vertical axis.
+
+
+
+
+<figure>
+<img src="/assets/orange/16.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
+
+
+
+
+
+
+<figure>
+<img src="/assets/orange/17.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
+
+
+
+
+### Interpretation:
+
+ - The diagonal line lists all the results that were predicted correctly by the algorithm (Actual = Predicted); i.e - where the image concerned actually does belong to the class/category it bears resemblance to.
+ - The ones aside from/around the diagonal are the ones where the actual and the predicted class of the images don’t match up: the image bears strong resemblance to a different category than the one it actually belongs to. The further the image from the diagonal (the more to the edge), the more resemblance it bears to the image category it was predicted to be by the algorithm than the one it actually belongs to.
+
+**Prediction and Cross Validation: A Sample analysis**
+
+<figure>
+<img src="/assets/orange/18.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
+
+As we can see from the sample, it’s one of the farthest away from the diagonal - right on the corner. WHich means the algorithm is strongly convinced that based upon the visual resemblance, the images follow the pattern and look visually similar to another category than they are to their own category.
+
+And we can also see why: the way that the people are gazing over the horizon sitting at where it seems like the edge of a balcony/beach, this photo bears visual resemblance as if it belongs to the image category The Edge; whereas it was actually sourced from A Gulf of Images.
+
+### Test and score results: 
+
+<figure>
+<img src="/assets/orange/19.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
+
+
+ - Area under the ROC curve (AUC) is really high 
+ - The Classification Accuracy is very accurate. 
+ 
+ 
+ 
+## Artitecture used for testing 130+ images: 
+
+
+<figure>
+<img src="/assets/orange/20.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
+
+After repeating the same workflow we did in chapter 1, we pipe the photos into an image testing function for testing and sorting. In our case, we use the ‘Logistical Regression’ algorithm to model our analyze before piping it into our testing program where it is processed before finally sending it in to sort it in the Confusion Matrix
+
+<figure>
+<img src="/assets/orange/21.png" style="width:200%; height:200%;"/>
+<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+</figure>
+
+This one a combination of both the segments of this assignment as we incorporate the hierarchical clustering as well (alongside the adjacent workflow leading up to the confusion matrix for comparison)
+
+# Index:
+
+ - Data Set #1 : Romanesque Architecture (37 Images)
+ [Link](https://www.wikiart.org/en/paintings-by-genre/architecture?select=featured#!#filterName:featured,viewType:masonry)
+
+ - Data Set #2 : A Gulf of Images (Architecture) (37 Images)
+[Link](https://akkasah.org/en/results/?filter=collection_name%3EA%20Gulf%20of%20Images;;&queries=&pageid=undefined)
+
+ - Data Set #3: Buildings and Architecture (Negative: 17-19th Century) (32 Images)
+[Link](https://www.clevelandart.org/art/collection/search?i=3&search=Architecture)
+
+ - Data Set #4: The Edge (Architecture) (26 Images)
+[Link](https://akkasah.org/en/results/?filter=collection_name%3EThe%20Edge;;&queries=&pageid=undefined)
+
+Link for the above images data: [Drive](https://drive.google.com/drive/folders/1zCOBYnXtL3mBae2knFCVnmiOmGEUi8ay)
 
