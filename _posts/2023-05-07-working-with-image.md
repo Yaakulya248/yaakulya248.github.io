@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Assignment-2 :Working with Corpus
-excerpt: "2nd Assignment"
+title: Assignment-3 :Working with Image Corpus
+excerpt: "3nd Assignment"
 modified: 1/31/2023, 9:00:24
 tags: [intro, beginner, jekyll, tutorial]
 comments: true
