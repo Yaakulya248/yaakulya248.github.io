@@ -21,7 +21,7 @@ We then replay the same simulation as last time, and subsequently test out the p
 
 All the individual sources along with the combined collection of the photos used in the experiments are indexed at the end of the page.
 
-## - Project Outline:
+- ## Project Outline:
 
 ### About the images
 
@@ -32,7 +32,7 @@ The images for this entire experiment were taken from sources like WikiArt and A
 
 Much like a corpus, analyzing an entire cluster of photos and segmenting them is something not possible by bare humane abilities. Orange aids that procedure by using image embedding and sorting algorithms accessed from its server remotely and analyzing over 2000 different data points(attributes) of each individual picture to put into contrast with the attributes to all the other photos. 
 
-:# Part 1: Hierarchical clustering using Dendrograms:
+# <div align="center">Part 1 - Hierarchical clustering using Dendrograms</div>
 
 
 *Segment Outline:*
@@ -54,7 +54,7 @@ First we choose the entire folder of our images and *import* the photos as such.
 The metadata we get: 
 <figure>
 <img src="/assets/orange/2.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Primary Metadata</figcaption>
 </figure>
 
 
@@ -65,8 +65,7 @@ We do get some ‘metadata’ but all we really get are the size dimensions and 
 *That’s where Image Embedding comes in*.
 
 <figure>
-<img src="/assets/orange/3.1.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<img src="/assets/orange/3.1.png" style="width:70%; height:70%;"/>
 </figure>
 
 After running our dataset through image embedding we get a plethora of very useful pieces of information (metadata) that we can use for our next step
@@ -74,13 +73,13 @@ After running our dataset through image embedding we get a plethora of very usef
 
 <figure>
 <img src="/assets/orange/3.2.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Pathway to Image Embedding</figcaption>
 </figure>
 
 *The metadata we now get*:
 <figure>
 <img src="/assets/orange/4.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Image descriptors: 2048 features aka **Image vectors** </figcaption>
 </figure>
 
 
@@ -99,15 +98,13 @@ We can use any of the several embedding algorithms provided in the system softwa
 
 <figure>
 <img src="/assets/orange/5.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Dendrogram</figcaption>
 </figure>
 
 This is the final product we get after our processing up until this point. Based on the characteristics of all the photos (2048 individual data points), we get a hierarchical structure called Dendrograms which sort of looks like the root network of a tree. The concept is pretty straightforward and visually intuitive as all it does is sort it into categories and subcategories based on all the characteristics that we previously derived and processed in our procedure.
 
 
-Let’s have a look at some excerpts from the graphs as examples to make sense of the entire thing:
-
-
+**Let’s have a look at some excerpts from the graphs as examples to make sense of the entire thing:**
 
 
 
@@ -117,7 +114,7 @@ Let’s have a look at some excerpts from the graphs as examples to make sense o
 
 <figure>
 <img src="/assets/orange/6.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Part of the Dendrogram</figcaption>
 </figure>
 
 
@@ -129,7 +126,7 @@ All of the following examples also portray a randomly chosen pair of photos that
 
 <figure>
 <img src="/assets/orange/7.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Part of the DendrogramPart of the Dendrogram</figcaption>
 </figure>
 
 Photos of remote forts and castles surrounded by a lush landscape of forests.
@@ -138,7 +135,7 @@ Photos of remote forts and castles surrounded by a lush landscape of forests.
 
 <figure>
 <img src="/assets/orange/8.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Part of the Dendrogram</figcaption>
 </figure>
 
 An entire subcategory of photos that seem to share a common architectural philosophy in terms of interior designs. 
@@ -150,18 +147,19 @@ Every single one of the architectures, being distinct and mighty beautiful in th
 
 <figure>
 <img src="/assets/orange/9.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Part of the Dendrogram</figcaption>
 </figure>
 
 Pillar art and carvings typically found in historical monuments and structures of Europe - a signature of medieval European architecture. And as expected the algorithm lists these together in the same branch of the dendrogram given their visual resemblance and congruent characteristics.
 
 
 - ## Final Product:
+
 *Image Grid after Image Embedding*
 
 <figure>
 <img src="/assets/orange/10.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Image Grid</figcaption>
 </figure>
 
 Our final cluster incorporating all of the clustering that we did & discussed up until now, neatly summed up in a grid arranged on the basis of similarities across the dataset.
@@ -171,7 +169,7 @@ Our final cluster incorporating all of the clustering that we did & discussed up
 
 <figure>
 <img src="/assets/orange/11.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Workflow</figcaption>
 </figure>
 
 ### Course of Action:
@@ -183,9 +181,12 @@ Our final cluster incorporating all of the clustering that we did & discussed up
 5. View the images as we did above.
 
 
+***
 
 
-:# Part 2: Classification, Predictions, and Anomalies:
+
+
+# <div align="center">Part 2 - Classification, Predictions, and Anomalies </div>
 
 *Working with 130+ images*
 
@@ -208,10 +209,9 @@ We-
 
 <figure>
 <img src="/assets/orange/12.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
 </figure>
      
-## - Image Embedding:
+- ## Image Embedding:
 
 We follow through the same course of actions that lead us to the table containing 2048 individual attributes/data points of all the images in our collection that we shall subsequently use for clustering and comparing.
 
@@ -219,23 +219,23 @@ We follow through the same course of actions that lead us to the table containin
 
 <figure>
 <img src="/assets/orange/13.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Data Table after Image Embedding containing 2048 attributes from the vector representation of the deep neural network.</figcaption>
 </figure>
 
 ## Hierarchical Clustering: 
 
-### - Example 1:
+- ### Example 1:
 
 <figure>
 <img src="/assets/orange/14.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Visual similarities across image categories</figcaption>
 </figure>
 
-### - Example 2:
+- ### Example 2:
  
 <figure>
 <img src="/assets/orange/15.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Visual similarities across image categories</figcaption>
 </figure>
 
 This one in particular might be a bit off (as is the case for few values for any data analytics project) as the visual similarities or the congruent attributes of the images that made the system cluster them together might be immediately evident.
@@ -256,7 +256,7 @@ Confusion matrix is a pretty straightforward concept: a square matrix that is co
 
 <figure>
 <img src="/assets/orange/16.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Confusion Matrix - in Number of Instances</figcaption>
 </figure>
 
 
@@ -266,7 +266,7 @@ Confusion matrix is a pretty straightforward concept: a square matrix that is co
 
 <figure>
 <img src="/assets/orange/17.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Confusion Matrix - in Percentage points</figcaption>
 </figure>
 
 
@@ -281,18 +281,17 @@ Confusion matrix is a pretty straightforward concept: a square matrix that is co
 
 <figure>
 <img src="/assets/orange/18.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Image class prediction from the matrix</figcaption>
 </figure>
 
 As we can see from the sample, it’s one of the farthest away from the diagonal - right on the corner. WHich means the algorithm is strongly convinced that based upon the visual resemblance, the images follow the pattern and look visually similar to another category than they are to their own category.
 
 And we can also see why: the way that the people are gazing over the horizon sitting at where it seems like the edge of a balcony/beach, this photo bears visual resemblance as if it belongs to the image category The Edge; whereas it was actually sourced from A Gulf of Images.
 
-### Test and score results: 
+### Test scores & results: 
 
 <figure>
 <img src="/assets/orange/19.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
 </figure>
 
 
@@ -301,35 +300,41 @@ And we can also see why: the way that the people are gazing over the horizon sit
  
  
  
-## Artitecture used for testing 130+ images: 
+### Artitecture used for testing the 130+ images: 
 
 
 <figure>
 <img src="/assets/orange/20.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Workflow to get the Confusion Matrix</figcaption>
 </figure>
 
 After repeating the same workflow we did in chapter 1, we pipe the photos into an image testing function for testing and sorting. In our case, we use the ‘Logistical Regression’ algorithm to model our analyze before piping it into our testing program where it is processed before finally sending it in to sort it in the Confusion Matrix
 
 <figure>
 <img src="/assets/orange/21.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">First steps: Importing our dataset</figcaption>
+<figcaption style="text-align: center;">Workflow to get the Confusion Matrix (including the hierarchical clustering)</figcaption>
 </figure>
 
 This one a combination of both the segments of this assignment as we incorporate the hierarchical clustering as well (alongside the adjacent workflow leading up to the confusion matrix for comparison)
 
+
 # Index:
 
- - Data Set #1 : Romanesque Architecture (37 Images)
+
+ - Data Set #1 : Romanesque Architecture (37 Images).
+ 
  [Link](https://www.wikiart.org/en/paintings-by-genre/architecture?select=featured#!#filterName:featured,viewType:masonry)
 
- - Data Set #2 : A Gulf of Images (Architecture) (37 Images)
+ - Data Set #2 : A Gulf of Images (Architecture) (37 Images).
+
 [Link](https://akkasah.org/en/results/?filter=collection_name%3EA%20Gulf%20of%20Images;;&queries=&pageid=undefined)
 
- - Data Set #3: Buildings and Architecture (Negative: 17-19th Century) (32 Images)
+ - Data Set #3: Buildings and Architecture (Negative: 17-19th Century) (32 Images).
+
 [Link](https://www.clevelandart.org/art/collection/search?i=3&search=Architecture)
 
- - Data Set #4: The Edge (Architecture) (26 Images)
+ - Data Set #4: The Edge (Architecture) (26 Images).
+
 [Link](https://akkasah.org/en/results/?filter=collection_name%3EThe%20Edge;;&queries=&pageid=undefined)
 
 Link for the above images data: [Drive](https://drive.google.com/drive/folders/1zCOBYnXtL3mBae2knFCVnmiOmGEUi8ay)
