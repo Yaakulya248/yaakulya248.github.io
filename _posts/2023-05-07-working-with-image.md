@@ -21,7 +21,7 @@ We then replay the same simulation as last time, and subsequently test out the p
 
 All the individual sources along with the combined collection of the photos used in the experiments are indexed at the end of the page.
 
-- ## Project Outline:
+## Project Outline:
 
 ### About the images
 
