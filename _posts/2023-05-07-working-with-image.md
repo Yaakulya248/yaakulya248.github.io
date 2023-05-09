@@ -135,7 +135,7 @@ Photos of remote forts and castles surrounded by a lush landscape of forests.
 
 <figure>
 <img src="/assets/orange/8.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">Part of the Dendrogram</figcaption>
+<figcaption style="text-align: center;">Another Part of the Dendrogram</figcaption>
 </figure>
 
 An entire subcategory of photos that seem to share a common architectural philosophy in terms of interior designs. 
@@ -147,7 +147,7 @@ Every single one of the architectures, being distinct and mighty beautiful in th
 
 <figure>
 <img src="/assets/orange/9.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">Part of the Dendrogram</figcaption>
+<figcaption style="text-align: center;">Another Part of the Dendrogram</figcaption>
 </figure>
 
 Pillar art and carvings typically found in historical monuments and structures of Europe - a signature of medieval European architecture. And as expected the algorithm lists these together in the same branch of the dendrogram given their visual resemblance and congruent characteristics.
