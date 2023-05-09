@@ -327,5 +327,5 @@ This one a combination of both the segments of this assignment as we incorporate
 
  - **Data Set #4:** The Edge (Architecture) (26 Images). [Link](https://akkasah.org/en/results/?filter=collection_name%3EThe%20Edge;;&queries=&pageid=undefined)
 
-Link for the above images data: [Drive](https://drive.google.com/drive/folders/1zCOBYnXtL3mBae2knFCVnmiOmGEUi8ay)
+ - Link for the above images data: [Drive](https://drive.google.com/drive/folders/1zCOBYnXtL3mBae2knFCVnmiOmGEUi8ay)
 
