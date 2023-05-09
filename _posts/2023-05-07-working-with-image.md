@@ -319,21 +319,13 @@ This one a combination of both the segments of this assignment as we incorporate
 
 
 # Index & Refrences:
- - Data Set #1 : Romanesque Architecture (37 Images).
- 
- [Link](https://www.wikiart.org/en/paintings-by-genre/architecture?select=featured#!#filterName:featured,viewType:masonry)
+ - Data Set #1 : Romanesque Architecture (37 Images). [Link](https://www.wikiart.org/en/paintings-by-genre/architecture?select=featured#!#filterName:featured,viewType:masonry)
 
- - Data Set #2 : A Gulf of Images (Architecture) (37 Images).
+ - Data Set #2 : A Gulf of Images (Architecture) (37 Images). [Link](https://akkasah.org/en/results/?filter=collection_name%3EA%20Gulf%20of%20Images;;&queries=&pageid=undefined)
 
-[Link](https://akkasah.org/en/results/?filter=collection_name%3EA%20Gulf%20of%20Images;;&queries=&pageid=undefined)
+ - Data Set #3: Buildings and Architecture (Negative: 17-19th Century) (32 Images). [Link](https://www.clevelandart.org/art/collection/search?i=3&search=Architecture)
 
- - Data Set #3: Buildings and Architecture (Negative: 17-19th Century) (32 Images).
-
-[Link](https://www.clevelandart.org/art/collection/search?i=3&search=Architecture)
-
- - Data Set #4: The Edge (Architecture) (26 Images).
-
-[Link](https://akkasah.org/en/results/?filter=collection_name%3EThe%20Edge;;&queries=&pageid=undefined)
+ - Data Set #4: The Edge (Architecture) (26 Images). [Link](https://akkasah.org/en/results/?filter=collection_name%3EThe%20Edge;;&queries=&pageid=undefined)
 
 Link for the above images data: [Drive](https://drive.google.com/drive/folders/1zCOBYnXtL3mBae2knFCVnmiOmGEUi8ay)
 
