@@ -8,7 +8,7 @@ comments: true
 category: blog
 ---
 
-# **A comparative analysis and classification of randomly generated cluster of photos using 'Orange'**
+# **A comparative analysis and classification of randomly generated cluster of Images using 'Orange'.**
 *Authors: Yaakulya Sabbani, Sami Areez*
 
 
