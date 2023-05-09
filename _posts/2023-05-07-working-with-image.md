@@ -38,7 +38,7 @@ Much like a corpus, analyzing an entire cluster of photos and segmenting them is
 *Segment Outline:*
  - Category: Romanesque Architecture
  - Number of photos in the sample: 37
- - The image collection used can be found here 
+ - The image collection used can be found in the index. 
 
 
 To start with, we first import our collection into the dataset and do a primary check for the metadata:
