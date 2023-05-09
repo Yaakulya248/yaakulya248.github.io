@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Assignment-2 :Working with Textual Corpus
-excerpt: "2nd Assignment"
+excerpt: "Textual Analysing Assignment"
 modified: 1/31/2023, 9:00:24
 tags: [intro, beginner, jekyll, tutorial]
 comments: true
