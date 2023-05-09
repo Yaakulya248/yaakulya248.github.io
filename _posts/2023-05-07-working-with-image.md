@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Assignment 3  :Image Corpus
+title: Assignment 3  :Working with Image Corpus
 excerpt: "Image Analysis Assignment"
 modified: 5/29/2023, 9:00:24
 tags: [intro, beginner, image, tutorial]
