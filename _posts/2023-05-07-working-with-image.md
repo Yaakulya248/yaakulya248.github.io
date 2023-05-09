@@ -318,7 +318,7 @@ After repeating the same workflow we did in chapter 1, we pipe the photos into a
 This one a combination of both the segments of this assignment as we incorporate the hierarchical clustering as well (alongside the adjacent workflow leading up to the confusion matrix for comparison)
 
 
-# Index:
+# Index & Refrences:
  - Data Set #1 : Romanesque Architecture (37 Images).
  
  [Link](https://www.wikiart.org/en/paintings-by-genre/architecture?select=featured#!#filterName:featured,viewType:masonry)
