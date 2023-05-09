@@ -211,7 +211,7 @@ We-
 <img src="/assets/orange/12.png" style="width:200%; height:200%;"/>
 </figure>
      
-- ## Image Embedding:
+## Image Embedding:
 
 We follow through the same course of actions that lead us to the table containing 2048 individual attributes/data points of all the images in our collection that we shall subsequently use for clustering and comparing.
 
