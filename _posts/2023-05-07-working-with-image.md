@@ -288,7 +288,7 @@ As we can see from the sample, it’s one of the farthest away from the diagonal
 
 And we can also see why: the way that the people are gazing over the horizon sitting at where it seems like the edge of a balcony/beach, this photo bears visual resemblance as if it belongs to the image category The Edge; whereas it was actually sourced from A Gulf of Images.
 
-### Test scores & results: 
+### Test scores & Results: 
 
 <figure>
 <img src="/assets/orange/19.png" style="width:200%; height:200%;"/>
