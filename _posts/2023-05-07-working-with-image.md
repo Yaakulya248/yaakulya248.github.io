@@ -300,7 +300,7 @@ And we can also see why: the way that the people are gazing over the horizon sit
  
  
  
-### Conclusion: Artitecture used for testing the 130+ images 
+### Conclusion: Artitecture used for testing the 130+ images: 
 
 
 <figure>
