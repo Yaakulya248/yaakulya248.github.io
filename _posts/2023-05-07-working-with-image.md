@@ -153,7 +153,7 @@ Every single one of the architectures, being distinct and mighty beautiful in th
 Pillar art and carvings typically found in historical monuments and structures of Europe - a signature of medieval European architecture. And as expected the algorithm lists these together in the same branch of the dendrogram given their visual resemblance and congruent characteristics.
 
 
-- ## Final Product:
+## Final Product:
 
 *Image Grid after Image Embedding*
 
