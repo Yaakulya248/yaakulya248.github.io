@@ -126,7 +126,7 @@ All of the following examples also portray a randomly chosen pair of photos that
 
 <figure>
 <img src="/assets/orange/7.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">Part of the DendrogramPart of the Dendrogram</figcaption>
+<figcaption style="text-align: center;">Highlited Part of the Dendrogram</figcaption>
 </figure>
 
 Photos of remote forts and castles surrounded by a lush landscape of forests.
