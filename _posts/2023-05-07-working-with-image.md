@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Assignment-3  :Working with Image Corpus
+title: Assignment 3
 excerpt: "Image Analysis Assignment"
 modified: 5/29/2023, 9:00:24
 tags: [intro, beginner, image, tutorial]
@@ -8,7 +8,7 @@ comments: true
 category: blog
 ---
 
-# **A comparative analysis and classification of randomly generated cluster of Image using 'Orange'.**
+# **A comparative analysis and classification of randomly generated cluster of photos using 'Orange'**
 *Authors: Yaakulya Sabbani, Sami Areez*
 
 
@@ -21,7 +21,7 @@ We then replay the same simulation as last time, and subsequently test out the p
 
 All the individual sources along with the combined collection of the photos used in the experiments are indexed at the end of the page.
 
-## Project Outline:
+- ## Project Outline:
 
 ### About the images
 
@@ -30,15 +30,17 @@ The images for this entire experiment were taken from sources like WikiArt and A
 
 ### Tools used
 
+ - Software used: Orange
+ - Image Embedding Algorithm used: Google Inception V3
+
 Much like a corpus, analyzing an entire cluster of photos and segmenting them is something not possible by bare humane abilities. Orange aids that procedure by using image embedding and sorting algorithms accessed from its server remotely and analyzing over 2000 different data points(attributes) of each individual picture to put into contrast with the attributes to all the other photos. 
 
-# <div align="center">Part 1 - Hierarchical clustering using Dendrograms</div>
-
+# Part 1 - Hierarchical clustering using Dendrograms
 
 *Segment Outline:*
  - Category: Romanesque Architecture
  - Number of photos in the sample: 37
- - The image collection used can be found in the index. 
+ - The image collection used can be found here 
 
 
 To start with, we first import our collection into the dataset and do a primary check for the metadata:
@@ -79,7 +81,7 @@ After running our dataset through image embedding we get a plethora of very usef
 *The metadata we now get*:
 <figure>
 <img src="/assets/orange/4.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">Image descriptors: 2048 features aka **Image vectors** </figcaption>
+<figcaption style="text-align: center;">Image descriptors: 2048 features aka Image vectors</figcaption>
 </figure>
 
 
@@ -93,7 +95,7 @@ We can use any of the several embedding algorithms provided in the system softwa
 
 
 
-### Hierarchical Clustering: Dendrogram:
+### Hierarchical Clustering - Dendrogram:
 
 
 <figure>
@@ -114,7 +116,7 @@ This is the final product we get after our processing up until this point. Based
 
 <figure>
 <img src="/assets/orange/6.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">Part of the Dendrogram</figcaption>
+<figcaption style="text-align: center;">Section of the Dendrogram grouping castles</figcaption>
 </figure>
 
 
@@ -126,7 +128,7 @@ All of the following examples also portray a randomly chosen pair of photos that
 
 <figure>
 <img src="/assets/orange/7.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">Highlited Part of the Dendrogram</figcaption>
+<figcaption style="text-align: center;">Section of the Dendrogram grouping forests</figcaption>
 </figure>
 
 Photos of remote forts and castles surrounded by a lush landscape of forests.
@@ -135,25 +137,25 @@ Photos of remote forts and castles surrounded by a lush landscape of forests.
 
 <figure>
 <img src="/assets/orange/8.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">Another Part of the Dendrogram</figcaption>
+<figcaption style="text-align: center;">Section of the Dendrogram viewed</figcaption>
 </figure>
 
 An entire subcategory of photos that seem to share a common architectural philosophy in terms of interior designs. 
 
 Every single one of the architectures, being distinct and mighty beautiful in their own rights, seem to share a structural design incorporating curved ceilings and entrances and long alleyways. Also interesting to note that ALL of the photos are of famous churches & chapels scattered across Europe, which does help explain a lot.
 
-### Example 4: Pillar Art
+### Example 4: Pillar Art (Capitals)
 
 
 <figure>
 <img src="/assets/orange/9.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">Another Part of the Dendrogram</figcaption>
+<figcaption style="text-align: center;">Section of the Dendrogram viewed</figcaption>
 </figure>
 
 Pillar art and carvings typically found in historical monuments and structures of Europe - a signature of medieval European architecture. And as expected the algorithm lists these together in the same branch of the dendrogram given their visual resemblance and congruent characteristics.
 
 
-## Final Product:
+- ## Final Product:
 
 *Image Grid after Image Embedding*
 
@@ -169,7 +171,7 @@ Our final cluster incorporating all of the clustering that we did & discussed up
 
 <figure>
 <img src="/assets/orange/11.png" style="width:200%; height:200%;"/>
-<figcaption style="text-align: center;">Workflow</figcaption>
+<figcaption style="text-align: center;">The workflow used to get the output</figcaption>
 </figure>
 
 ### Course of Action:
@@ -186,7 +188,7 @@ Our final cluster incorporating all of the clustering that we did & discussed up
 
 
 
-# <div align="center">Part 2 - Classification, Predictions, and Anomalies </div>
+# Part 2 - Classification, Predictions, and Anomalies 
 
 *Working with 130+ images*
 
@@ -211,7 +213,7 @@ We-
 <img src="/assets/orange/12.png" style="width:200%; height:200%;"/>
 </figure>
      
-## Image Embedding:
+- ## Image Embedding:
 
 We follow through the same course of actions that lead us to the table containing 2048 individual attributes/data points of all the images in our collection that we shall subsequently use for clustering and comparing.
 
@@ -222,32 +224,33 @@ We follow through the same course of actions that lead us to the table containin
 <figcaption style="text-align: center;">Data Table after Image Embedding containing 2048 attributes from the vector representation of the deep neural network.</figcaption>
 </figure>
 
-## Hierarchical Clustering: 
+## Hierarchical Clustering: Examples of visual repeptitions across databanks
 
-- ### Example 1:
+### Example 1: The obvious ones 
 
 <figure>
 <img src="/assets/orange/14.png" style="width:200%; height:200%;"/>
 <figcaption style="text-align: center;">Visual similarities across image categories</figcaption>
 </figure>
 
-- ### Example 2:
+This particular piece from the dendrogram gives us a suitable sample to analyze as it contains both similarities/similar pictures within a dataset as well as across datasets. So much so as a matter of fact that the similar photos the algorithm seems to single from different datasets (*A Gulf of images* and *The Edge*) that upon close inspection it seems they might even be the picture of the exact same place, just from different viewing angles.
+
+### Example 2: The not so obvious ones
  
 <figure>
 <img src="/assets/orange/15.png" style="width:200%; height:200%;"/>
 <figcaption style="text-align: center;">Visual similarities across image categories</figcaption>
 </figure>
 
-This one in particular might be a bit off (as is the case for few values for any data analytics project) as the visual similarities or the congruent attributes of the images that made the system cluster them together might be immediately evident.
+This one in particular might be a bit off (as is the case for few values for any data analytics project) as the visual similarities or the congruent attributes of the images that made the system cluster them together might not be immediately evident.
+
+***
 
 That being said and done, now we move on to the next and final step of our project, that is creating a prediction model (based on previously generated image attributes) using **Confusion Matrix**. 
 
 After constructing the matrix, we can cross examine each of the samples itself and get an idea of the effectiveness of the model and the overall quality of our custom dataset itself.
 
 ### Confusion Matrix: 
-
- - Actual vs Predicted Values
- - Shows the number of instance of each combination
 
 Confusion matrix is a pretty straightforward concept: a square matrix that is constructed with the actual results (classes of each image) on the horizontal axis and the predicted results - the class of the image as perceived by the algorithm on the basis of its characteristics - on the vertical axis.
 
@@ -271,36 +274,50 @@ Confusion matrix is a pretty straightforward concept: a square matrix that is co
 
 
 
+### How it works: 
 
-### Interpretation:
+ - The vertical axis of the matrix denotes the *Predicted* values, the attributes of the images that convinces the system that it is from a partiular category, which, in reality, it might or might not be.
+ - The horizontal axis denotes the class/dataset the image is actually sourced from.
+ - The diagonal axis denotes the photos where the prediction by the system (according to the image attributes) coincides with the actual source of the image.
+ - The values in each cell denotes the amount of the photos taht lie in that intersection
+
+
+### How to read it:
 
  - The diagonal line lists all the results that were predicted correctly by the algorithm (Actual = Predicted); i.e - where the image concerned actually does belong to the class/category it bears resemblance to.
  - The ones aside from/around the diagonal are the ones where the actual and the predicted class of the images don’t match up: the image bears strong resemblance to a different category than the one it actually belongs to. The further the image from the diagonal (the more to the edge), the more resemblance it bears to the image category it was predicted to be by the algorithm than the one it actually belongs to.
 
-**Prediction and Cross Validation: A Sample analysis**
+## Prediction and Cross Validation: A Sample analysis
 
 <figure>
 <img src="/assets/orange/18.png" style="width:200%; height:200%;"/>
 <figcaption style="text-align: center;">Image class prediction from the matrix</figcaption>
 </figure>
 
-As we can see from the sample, it’s one of the farthest away from the diagonal - right on the corner. WHich means the algorithm is strongly convinced that based upon the visual resemblance, the images follow the pattern and look visually similar to another category than they are to their own category.
+This sample is what we get if we view the top right chunk of the matrix, one of the 4 furthest points from the diagonal. Which means the algorithm is strongly convinced that based upon the visual resemblance, the images follow the pattern and look visually similar to another category than they are to their own category. In this case, the system is very confident that the visual attributes it bears is from the image dataset *The Edge* (as per the vertical prediction axis), while, in reality, those photos were actually sourced from the image dataset *A Gulf of Images*.
 
 And we can also see why: the way that the people are gazing over the horizon sitting at where it seems like the edge of a balcony/beach, this photo bears visual resemblance as if it belongs to the image category The Edge; whereas it was actually sourced from A Gulf of Images.
 
-### Test scores & Results: 
+### Test scores & results: 
 
 <figure>
 <img src="/assets/orange/19.png" style="width:200%; height:200%;"/>
 </figure>
 
 
- - Area under the ROC curve (AUC) is really high 
- - The Classification Accuracy is very accurate. 
+Upon analyzing the aforementioned image, it becomes evident that:
+- The Area under the ROC curve (AUC) exhibits an exceptionally high value.
+- The Classification Accuracy demonstrates a remarkable level of precision.
+
+This observation highlights the impressive performance of the model or system being evaluated. The Area under the ROC curve, a metric widely used to assess classification models, indicates a substantial degree of separation between the true positive and false positive rates. In simpler terms, it suggests that the model's ability to distinguish between different classes is exceptionally accurate.
+
+Furthermore, the Classification Accuracy, which measures the correctness of the model's predictions, exhibits an outstanding level of precision. This indicates that the model is consistently and reliably providing accurate classifications or predictions.
+
+Taken together, these findings emphasize the superior quality and effectiveness of the model or system under evaluation, reaffirming its ability to deliver highly accurate and reliable results.
  
  
  
-### Conclusion: Artitecture used for testing the 130+ images: 
+### Artitecture used for testing the 130+ images: 
 
 
 <figure>
@@ -315,14 +332,22 @@ After repeating the same workflow we did in chapter 1, we pipe the photos into a
 <figcaption style="text-align: center;">Workflow to get the Confusion Matrix (including the hierarchical clustering)</figcaption>
 </figure>
 
-This one a combination of both the segments of this assignment as we incorporate the hierarchical clustering as well (alongside the adjacent workflow leading up to the confusion matrix for comparison)
+This one a combination of both the segments of this assignment as we incorporate the hierarchical clustering as well (alongside the adjacent workflow leading up to the confusion matrix for comparison).
+
+# Index
+
+Data Set #1 : Romanesque Architecture (37 Images) [Link](https://www.wikiart.org/en/paintings-by-genre/architecture?select=featured#!#filterName:featured,viewType:masonry)
 
 
-# Index & Refrences:
- - **Data Set #1 :** Romanesque Architecture (37 Images). [Link](https://www.wikiart.org/en/paintings-by-genre/architecture?select=featured#!#filterName:featured,viewType:masonry)
- - **Data Set #2 :** A Gulf of Images (Architecture) (37 Images). [Link](https://akkasah.org/en/results/?filter=collection_name%3EA%20Gulf%20of%20Images;;&queries=&pageid=undefined)
- - **Data Set #3 :** Buildings and Architecture (Negative: 17-19th Century) (32 Images). [Link](https://www.clevelandart.org/art/collection/search?i=3&search=Architecture)
- - **Data Set #4 :** The Edge (Architecture) (26 Images). [Link](https://akkasah.org/en/results/?filter=collection_name%3EThe%20Edge;;&queries=&pageid=undefined)
+Data Set #2 : A Gulf of Images (Architecture) (37 Images) [Link](https://akkasah.org/en/results/?filter=collection_name%3EA%20Gulf%20of%20Images;;&queries=&pageid=undefined)
 
- - **Link for the above images corpus data:** [Drive](https://drive.google.com/drive/folders/1zCOBYnXtL3mBae2knFCVnmiOmGEUi8ay)
 
+Data Set #3: Buildings and Architecture (Negative: 17-19th Century) (32 Images) [Link](https://www.clevelandart.org/art/collection/search?i=3&search=Architecture)
+
+
+Data Set #4: The Edge (Architecture) (26 Images) [Link](https://akkasah.org/en/results/?filter=collection_name%3EThe%20Edge;;&queries=&pageid=undefined)
+
+
+
+
+Link for the above images data: [Drive](https://drive.google.com/drive/folders/1zCOBYnXtL3mBae2knFCVnmiOmGEUi8ay)
