@@ -191,49 +191,6 @@ category: presentation
 
 
 
-<section>
-
-  <section data-markdown>
-    <textarea data-template>
-      ## 5. Values & Ethics
-      ![Underwater Imagery by AI](/assets/up/4.jpg "Underwater Imagery by AI")
-    </textarea>
-  </section>
-
-
-  <section data-markdown>
-    <textarea data-template>
-      **Cultural Respect**
-      
-      The project values cultural diversity and respects the heritage and traditions associated with Dwarka. It aims to approach the research with sensitivity and acknowledges the importance of consulting with local communities, experts, and stakeholders to ensure their perspectives and concerns are considered.
-    </textarea>
-  </section>
-  
-  
-  <section data-markdown>
-    <textarea data-template>
-      **Integrity and Accuracy**
-      
-      The project values cultural diversity and respects the heritage and traditions associated with Dwarka. It aims to approach the research with sensitivity and acknowledges the importance of consulting with local communities, experts, and stakeholders to ensure their perspectives and concerns are considered.
-    </textarea>
-  </section>
-  
-  
-  <section data-markdown>
-    <textarea data-template>
-      **Responsible Data Usage**
-      
-      The project recognizes the ethical implications of data usage and aims to handle the data collected with responsibility and care. It ensures the protection of personal information, respects intellectual property rights, and considers the potential impact of data dissemination on cultural sensitivities and privacy concerns.
-    </textarea>
-  </section>
-  
-
-</section>
-
-
-
-
-
 
 
 <section>
@@ -343,6 +300,49 @@ category: presentation
 
 
 
+
+
+
+
+
+<section>
+
+  <section data-markdown>
+    <textarea data-template>
+      ## 5. Values & Ethics
+      ![Underwater Imagery by AI](/assets/up/4.jpg "Underwater Imagery by AI")
+    </textarea>
+  </section>
+
+
+  <section data-markdown>
+    <textarea data-template>
+      **Cultural Respect**
+      
+      The project values cultural diversity and respects the heritage and traditions associated with Dwarka. It aims to approach the research with sensitivity and acknowledges the importance of consulting with local communities, experts, and stakeholders to ensure their perspectives and concerns are considered.
+    </textarea>
+  </section>
+  
+  
+  <section data-markdown>
+    <textarea data-template>
+      **Integrity and Accuracy**
+      
+      The project values cultural diversity and respects the heritage and traditions associated with Dwarka. It aims to approach the research with sensitivity and acknowledges the importance of consulting with local communities, experts, and stakeholders to ensure their perspectives and concerns are considered.
+    </textarea>
+  </section>
+  
+  
+  <section data-markdown>
+    <textarea data-template>
+      **Responsible Data Usage**
+      
+      The project recognizes the ethical implications of data usage and aims to handle the data collected with responsibility and care. It ensures the protection of personal information, respects intellectual property rights, and considers the potential impact of data dissemination on cultural sensitivities and privacy concerns.
+    </textarea>
+  </section>
+  
+
+</section>
 
 
 
