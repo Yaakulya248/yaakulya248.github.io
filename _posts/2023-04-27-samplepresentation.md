@@ -197,7 +197,7 @@ category: presentation
 
   <section data-markdown>
     <textarea data-template>
-      ## 6. Resources
+      ## 5. Resources
       ![Underwater Imagery by AI](/assets/up/5.jpg "Underwater Imagery by AI")
     </textarea>
   </section>
@@ -258,7 +258,7 @@ category: presentation
 
   <section data-markdown>
     <textarea data-template>
-      ## 7. Workplan
+      ## 6. Workplan
       ![Underwater Imagery by AI](/assets/up/6.jpg "Underwater Imagery by AI")
     </textarea>
   </section>
@@ -309,7 +309,7 @@ category: presentation
 
   <section data-markdown>
     <textarea data-template>
-      ## 5. Values & Ethics
+      ## 7. Values & Ethics
       ![Underwater Imagery by AI](/assets/up/4.jpg "Underwater Imagery by AI")
     </textarea>
   </section>
